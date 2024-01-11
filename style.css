@@ -62,7 +62,7 @@ input,
 }
 /* Heading */
 .todo__group-title,
-.add-task__label {
+.add-task__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -87,7 +87,7 @@ input,
   color: #333;
 }
 /* New Task */
-.add-task__label {
+.add-task__title {
   display: block;
   margin: 0 0 20px;
 }
@@ -141,4 +141,17 @@ input,
 }
 .task_edit-mode .task__label {
   display: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
